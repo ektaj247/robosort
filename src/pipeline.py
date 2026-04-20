@@ -1,0 +1,1 @@
+"""Full integrated pipeline placeholder."""
