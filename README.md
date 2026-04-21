@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=flat-square" />
-  <img src="https://img.shields.io/badge/Python-3.10-blue?style=flat-square&logo=python" />
+  <img src="https://img.shields.io/badge/Python-3.12-blue?style=flat-square&logo=python" />
   <img src="https://img.shields.io/badge/PyTorch-2.x-red?style=flat-square&logo=pytorch" />
   <img src="https://img.shields.io/badge/YOLOv11-Ultralytics-purple?style=flat-square" />
   <img src="https://img.shields.io/badge/Open3D-0.18-teal?style=flat-square" />
@@ -91,7 +91,7 @@ RGB-D Camera (RealSense D435)
 | Fine Alignment | Point-to-Plane ICP | 6D pose refinement |
 | Annotation | LabelMe | Polygon-level instance annotation |
 | Experiment Tracking | Weights & Biases | Training metrics and run comparison |
-| Language | Python 3.10 | End-to-end implementation |
+| Language | Python 3.12 | End-to-end implementation |
 
 ---
 
@@ -116,7 +116,7 @@ The project is organized into six sequential phases. Each phase has defined deli
 Established the full development environment including GPU-accelerated PyTorch, Intel RealSense SDK, Open3D for point cloud processing, and all supporting libraries. Verified end-to-end import chain and CUDA availability.
 
 **Deliverables completed:**
-- Python 3.10 virtual environment with pinned dependencies (`requirements.txt`)
+- Python 3.12 virtual environment with pinned dependencies (`requirements.txt`)
 - CUDA 11.8 + cuDNN installation and verification
 - Intel RealSense SDK (`pyrealsense2`) configured and camera handshake verified
 - Repository structure scaffolded with separation of raw data, processed data, models, source, and results
@@ -379,7 +379,7 @@ robotsort/
 
 ### Prerequisites
 
-- Python 3.10
+- Python 3.12
 - NVIDIA GPU with CUDA 11.8+ (strongly recommended; CPU-only is supported but slow)
 - Intel RealSense D435 camera + USB 3.0 connection
 - [Intel RealSense SDK 2.0](https://github.com/IntelRealSense/librealsense) installed at the system level
